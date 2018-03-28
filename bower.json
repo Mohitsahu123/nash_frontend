@@ -1,0 +1,16 @@
+{
+  "name": "purespectrum",
+  "description": "frontend tool for UI",
+  "main": "server.js",
+  "authors": [
+    "dineshp"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "ui"
+  ],
+  "private": true,
+  "dependencies": {
+  
+  }
+}

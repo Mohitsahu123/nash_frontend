@@ -1,0 +1,12 @@
+
+
+<section class="pad get-login" ng-controller="scrapperCntrl">
+<h2>Keywords</h2>
+   <ul class="" aria-labelledby="user-actions">
+   <li ng-repeat="keyword in keywords" > <button type="button" class="btn btn-link" value="{{keyword.keyword}}" ng-click="getImagesByKeyword(keyword)"  >{{keyword.keyword}}</button></li>
+                    </ul>
+    <ul class="" aria-labelledby="user-actions">
+   <li style= "margin:10px" ng-repeat="image in imagesArr" > <img src="{{apiBaseUrl+image}}"/></li>
+                    
+                 </ul>
+</section>
