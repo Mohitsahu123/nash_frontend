@@ -8,8 +8,7 @@
 ```
 #!terminal
 
-git clone  https://bitbucket.org/purespectrum1/frontend_platform.git 
-```
+git clone  https://github.com/Mohitsahu123/nash_frontend.git
 
 **Go to the frontend-platform dir :**
  
