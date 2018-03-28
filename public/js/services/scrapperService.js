@@ -1,7 +1,7 @@
 
 
 angular.module('myApp')
-    .factory('scrapperService',['$http','config', function($http, config) {
+    .factory('scrapperService',['$http', function($http) {
         var base_url = 'http://localhost:3000/scrapper';
         return {
             getImagesByKeyword: function (keyword) {

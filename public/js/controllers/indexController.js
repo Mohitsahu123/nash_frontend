@@ -1,5 +1,5 @@
 
 angular.module('myApp')
-    .controller('indexController',['$scope','$http','$state','$cookies','$window','config',function($scope, $http, $state, $cookies ,$window, config){
+    .controller('indexController',['$scope','$http','$state','$cookies','$window',function($scope, $http, $state, $cookies ,$window){
 
     }]);
